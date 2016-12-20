@@ -9,7 +9,7 @@ $(document).ready(function(){ //(document).ready只需要apply一次，should be
   });
 
   $(".readmore").click(function(){
-    $(this).hide();
+    $(this).hide(); //can be "this" or ".readmore", they both work
   });
 
   $(".readmore").click(function(){
